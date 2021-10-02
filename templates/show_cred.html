@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            add1
+        </title>
+    </head>
+    <body>
+        
+    {% for  destinations in destination %}
+        {% if destinations.name == "Mumbai" %}
+            Name:{{destinations.name}}
+            price:{{destinations.price}}
+            details:{{destinations.details}}
+            <img src="{{destinations.image.url}}">
+        {% endif %}
+        
+         
+
+
+
+    {% endfor %}
+        
+        
+            
+        
+
+
+    </body>
+</html>
