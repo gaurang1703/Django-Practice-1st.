@@ -1,0 +1,3 @@
+# Django-Practice-1st.
+###This is a repository of a newbie please help him by merging some pull requests 
+###This offers you a lot more stuf than it has......
